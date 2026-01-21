@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;
+   height: 100vh;
+   background-image: url(img/Background-img.png);
+}
+
+.section{
+    background: rgb(0, 110, 255, 0.5);
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.007);
+    width: 450px;
+}
+
+.area-do-texto textarea{
+    padding: 15px;
+    background-color: aliceblue;
+    resize: none;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    width: 390px;
+    height: 100px;
+}
+
+.selecao-idioma{
+    padding-top: 10px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.selecao-idioma label{
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+select{
+    height: 30px;
+    outline: none;
+    border:  none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    width: 120px;
+}
+
+.idioma-origem, .idioma-destino{
+    min-width: 120px;
+}
+
+.selecao-idioma button{
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff1a;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.traducao-pronta{
+    margin-top: 15px;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    height: 100px;
+    width: 390px;
+    overflow-y: auto;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: italic ;
+}

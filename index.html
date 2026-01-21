@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/linguas.png">
+    <title>Tradutor</title>
+
+</head>
+
+<body>
+    <div class="section">
+        <div class="area-do-texto">
+            <textarea class="inputTexto"></textarea>
+        </div>
+
+        <div class="selecao-idioma">
+            <label for="idioma-origem">De:</label>
+            <select class="idioma-origem" id="idioma-origem">
+                <option value="pt-br">Português</option>
+                <option value="en">Inglês</option>
+                <option value="es">Espanhol</option>
+                <option value="fr">Francês</option>
+                <option value="de">Alemão</option>
+                <option value="ja">Japonês</option>
+                <option value="ru">Russo</option>
+                <option value="zh-CN">Chinês Simplificado</option>
+                <option value="zh-TW">Chinês Tradicional</option>
+            </select>
+
+            <label for="idioma-destino">Para:</label>
+            <select class="idioma-destino" id="idioma-destino">
+                <option value="en">Inglês</option>
+                <option value="pt-br">Português</option>
+                <option value="es">Espanhol</option>
+                <option value="fr">Francês</option>
+                <option value="it">Italiano</option>
+                <option value="de">Alemão</option>
+                <option value="ja">Japonês</option>
+                <option value="ru">Russo</option>
+                <option value="zh-CN">Chinês Simplificado</option>
+                <option value="zh-TW">Chinês Tradicional</option>
+            </select>
+
+            <button onclick="traduzirTexto()">
+                <img src="img/traduzir.svg" alt="">
+            </button>
+
+            <button onclick="ouvirVoz()">
+                <img src="img/microfone.svg" alt="">
+            </button>
+        </div>
+
+        <div class="traducao-pronta">
+            <p class="traducao">O texto irá aparecer aqui...</p>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
