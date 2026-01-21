@@ -1,7 +1,7 @@
 # Tradutor com IA
 
 ### Esse projeto foi realizado no curso gratuito de 4 dias do DevClub transmitido no YouTube.
-### Porém, achei coveninete melhorar algumas funções do projeto para melhorar minhas habilidades.
+### Porém, achei conveniente melhorar algumas funções do projeto para melhorar minhas habilidades.
 
 ## News:
 
